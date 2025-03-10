@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4D4DC7FE-4C32-4002-BCA1-006327959EB5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>ListsExample.Module1</StartupObject>
+    <StartupObject>ListsExample.ListsExample</StartupObject>
     <RootNamespace>ListsExample</RootNamespace>
     <AssemblyName>ListsExample</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="ListsExample.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
